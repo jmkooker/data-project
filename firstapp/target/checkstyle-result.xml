@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="/vnx1/home/jkooker/Documents/Java_project/java_practice/My-data-project/firstapp/src/main/java/tgf/App.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="1" severity="error" message="Redundant import from the same package - firstapp.src.main.java.tgf.MainFrame." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="9" column="1" severity="error" message="The name of the outer type and the file do not match." source="com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck"/>
+<error line="9" column="14" severity="error" message="Name &apos;app&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="9" column="17" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="5" severity="error" message="&apos;METHOD_DEF&apos; has more than 1 empty lines before." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="15" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="16" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/vnx1/home/jkooker/Documents/Java_project/java_practice/My-data-project/firstapp/src/main/java/tgf/Person.java">
+<error line="3" column="8" severity="error" message="Unused import - java.io.File." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" column="1" severity="error" message="Wrong order for &apos;java.util.ArrayList&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="5" column="8" severity="error" message="Unused import - java.util.ArrayList." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="6" column="8" severity="error" message="Unused import - java.util.Scanner." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="7" column="1" severity="error" message="Wrong order for &apos;java.awt.*&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="9" column="49" severity="error" message="&apos;&gt;&apos; is followed by an illegal character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="9" column="50" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="12" column="5" severity="error" message="&apos;VARIABLE_DEF&apos; has more than 1 empty lines before." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="14" column="19" severity="error" message="Name &apos;MyColor&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="15" column="18" severity="error" message="Name &apos;MyDate&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="17" column="54" severity="error" message="Name &apos;MyColor&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="17" column="68" severity="error" message="Name &apos;MyDate&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="18" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="27" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="27" column="1" severity="error" message="&apos;/*&apos; has more than 1 empty lines before." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="27" column="1" severity="error" message="Block comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 65." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="28" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="49" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="50" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="51" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="52" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="63" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="65" column="5" severity="error" message="&apos;METHOD_DEF&apos; has more than 1 empty lines before." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="66" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="71" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="76" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="80" column="35" severity="error" message="&apos;name&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="81" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="85" column="32" severity="error" message="&apos;MyColor&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="85" column="32" severity="error" message="Name &apos;MyColor&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="86" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="91" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="96" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="100" column="30" severity="error" message="&apos;MyDate&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="100" column="30" severity="error" message="Name &apos;MyDate&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="101" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="104" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="106" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="107" column="7" severity="error" message="&apos;method def&apos; child has incorrect indentation level 6, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="110" column="1" severity="error" message="Comment has incorrect indentation level 0, expected is 4, indentation should be the same level as line 104." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="111" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/vnx1/home/jkooker/Documents/Java_project/java_practice/My-data-project/firstapp/src/main/java/tgf/Read_file.java">
+<error line="2" column="1" severity="error" message="&apos;import&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="9" column="1" severity="error" message="Wrong order for &apos;java.awt.*&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="13" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="13" column="14" severity="error" message="Name &apos;Read_file&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+<error line="14" column="1" severity="error" message="&apos;{&apos; at column 1 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="15" column="57" severity="error" message="Name &apos;MyColor&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="15" column="80" severity="error" message="Name &apos;MyDate&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="20" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="20" column="23" severity="error" message="Name &apos;People&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="20" column="23" severity="error" message="Variable &apos;People&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="21" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="21" column="17" severity="error" message="Name &apos;number_of_values&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="22" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="22" column="18" severity="error" message="Name &apos;MyDate&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="23" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="23" column="20" severity="error" message="Name &apos;Name&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="24" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="24" column="20" severity="error" message="Name &apos;Company&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="25" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="25" column="19" severity="error" message="Name &apos;MyColor&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="26" column="5" severity="error" message="Instance variable definition in wrong order." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
+<error line="26" column="13" severity="error" message="Name &apos;split_variable&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="26" column="13" severity="error" message="Variable &apos;split_variable&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="26" column="34" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="28" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="28" column="34" severity="error" message="Name &apos;insert_file&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="29" column="5" severity="error" message="&apos;{&apos; at column 5 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="32" column="16" severity="error" message="Name &apos;next_line&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="33" column="16" severity="error" message="&apos;split_variable&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="33" column="16" severity="error" message="Name &apos;split_variable&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="33" column="30" severity="error" message="Array brackets at illegal position." source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="38" column="13" severity="error" message="&apos;while&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="39" column="13" severity="error" message="&apos;{&apos; at column 13 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="41" column="17" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="42" column="17" severity="error" message="&apos;{&apos; at column 17 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="46" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="47" column="21" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="47" column="23" severity="error" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="47" column="43" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+<error line="48" column="21" severity="error" message="&apos;{&apos; at column 21 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="49" column="32" severity="error" message="Name &apos;Month&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="49" column="69" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="50" column="32" severity="error" message="Name &apos;Day&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="50" column="66" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="50" column="67" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="50" column="68" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="51" column="32" severity="error" message="Name &apos;Year&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="51" column="74" severity="error" message="&apos;7&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="51" column="75" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="51" column="76" severity="error" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="52" column="32" severity="error" message="Name &apos;date_to_convert&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="53" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="56" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="57" column="21" severity="error" message="&apos;}&apos; at column 21 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="58" column="26" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="58" column="47" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+<error line="59" column="21" severity="error" message="&apos;{&apos; at column 21 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="61" column="21" severity="error" message="&apos;}&apos; at column 21 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="62" column="26" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="62" column="47" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+<error line="63" column="21" severity="error" message="&apos;{&apos; at column 21 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="65" column="21" severity="error" message="&apos;}&apos; at column 21 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="66" column="26" severity="error" message="&apos;if&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="66" column="47" severity="error" message="Literal Strings should be compared using equals(), not &apos;==&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck"/>
+<error line="67" column="21" severity="error" message="&apos;{&apos; at column 21 should be on the previous line." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="68" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="70" column="41" severity="error" message="&apos;typecast&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="71" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="73" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="74" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="78" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="79" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="80" column="19" severity="error" message="Comment has incorrect indentation level 18, expected is 16, indentation should be the same level as line 41." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="81" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="82" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="83" column="16" severity="error" message="Comment has incorrect indentation level 15, expected is 16, indentation should be the same level as line 41." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="84" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="86" severity="error" message="Line is longer than 120 characters (found 180)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="89" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="92" column="7" severity="error" message="Block comment has incorrect indentation level 6, expected is 8, indentation should be the same level as line 90." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="117" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="127" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="139" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="149" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="159" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="160" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="163" column="5" severity="error" message="&apos;}&apos; has more than 1 empty lines after." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="188" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/vnx1/home/jkooker/Documents/Java_project/java_practice/My-data-project/firstapp/src/main/java/tgf/MainFrame.java">
+<error line="6" column="1" severity="error" message="&apos;import&apos; has more than 1 empty lines before." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="6" column="1" severity="error" message="Extra separation in import group before &apos;javax.swing.*&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="8" column="38" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="9" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="9" column="29" severity="error" message="&apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="17" severity="error" message="&apos;500&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="15" column="20" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="15" column="21" severity="error" message="&apos;600&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="16" column="38" severity="error" message="&apos;300&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="16" column="41" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="16" column="42" severity="error" message="&apos;400&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="27" column="5" severity="error" message="&apos;}&apos; has more than 1 empty lines after." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="35" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>
