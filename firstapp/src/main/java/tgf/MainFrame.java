@@ -77,10 +77,10 @@ public class MainFrame extends JFrame {
         ta.setColumns(38);
         JScrollPane sp = new JScrollPane(ta); 
         sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        mainPanel.add(ta);
+        //mainPanel.add(ta);
         mainPanel.getContentPane().add(sp);
-        sp.setBounds(900,300, 30,300);
-        ta.setBounds(10,50, 850,700);
+        sp.setBounds(10,50, 850,700);
+        //ta.setBounds(10,50, 850,700);
         b1.setBounds(820,10,35,30);  
         mainPanel.add(b1);
         b2.setBounds(870,10,100,30);  
@@ -152,7 +152,7 @@ public class MainFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("getData Start");
-
+                textarea.setText("");
                 //Gets text from Jtextfield field.
                 String text = field.getText();
                 //Sets the type to be sorted
@@ -180,7 +180,7 @@ public class MainFrame extends JFrame {
                 ArrayList<Person> People = read.getPeopleArray();
 
                 //Sorts the array based on the sort "type".
-                Person sort = new Person();
+                Person sort = new Person(null, null, null, null);
                 People = sort.sortPeopleArray(type ,People);
 
                 //Appends the text from the array to the textarea.

@@ -12,10 +12,10 @@ import java.util.Comparator;
 public class Person {
     
     
-    private String name;
-    private String company;
-    private Color MyColor;
-    private Date MyDate;
+    final private String name;
+    final private String company;
+    final private Color MyColor;
+    final private Date MyDate;
 
     //Creation of the Person object.
     public Person(String name, String company, Color MyColor, Date MyDate) 
@@ -38,10 +38,7 @@ public class Person {
         return this.name;
     }
 
-    public void setName(String name)
-    {
-        this.company = company;
-    }
+
 
     //getCompany returns Company for Person
     public String getCompany()
@@ -49,15 +46,9 @@ public class Person {
         return this.company;
     }
 
-    public void setCompany(String name)
-    {
-        this.company = company;
-    }
 
-    public void setColor(Color MyColor)
-    {
-        this.MyColor = MyColor;
-    }
+
+
 
     //getColor returns Color for Person
     public Color getColor()
@@ -212,10 +203,7 @@ public class Person {
         return formatter.format(this.MyDate);
     }
 
-    public void setDate(Date MyDate)
-    {
-        this.MyDate = MyDate;
-    }
+
 
     //Returns all information do be returned to textarea.
     public String getInformation()
@@ -301,13 +289,6 @@ public class Person {
         return People;
     }
 
-
-    
-//Used to run methods.
-public Person()
-{
-    
-}
 
 
     
